@@ -51,20 +51,23 @@ A powerful and user-friendly network security scanner optimized for both Termux 
 ## Installation
 
 ### Termux
-```bash
+```
 pkg update && pkg upgrade
 pkg install nmap git
-git clone https://github.com/yourusername/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan.git
 cd murjadscan
 chmod +x murjadscan.sh
 ./murjadscan.sh
-Kali Linux
+```
+### Kali Linux
+```
 sudo apt update
 sudo apt install nmap git
-git clone https://github.com/yourusername/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan.git
 cd murjadscan
 chmod +x murjadscan.sh
 sudo ./murjadscan.sh
+```
 Legal Disclaimer
 IMPORTANT: Only use this tool on networks and systems you own or have explicit written permission to test. Unauthorized network scanning may be illegal in your jurisdiction and could result in criminal charges. The authors assume no liability for misuse of this tool.
 Version
@@ -76,7 +79,7 @@ For issues, questions, or contributions, please visit the GitHub repository.
 ---
 
 
-```markdown
+markdown
 # 🔍 MurjadScan - Network Security Scanner
 
 <div align="center">
@@ -171,7 +174,6 @@ MurjadScan is a comprehensive network security scanning tool designed to work ef
 
 ### Option 1: Termux (Android)
 
-```bash
 # Update packages
 pkg update && pkg upgrade -y
 
@@ -192,7 +194,8 @@ chmod +x murjadscan.sh
 
 # Run the scanner
 ./murjadscan.sh
-Option 2: Kali Linux
+
+### Option 2: Kali Linux
 # Update system
 sudo apt update && sudo apt upgrade -y
 
