@@ -54,7 +54,7 @@ A powerful and user-friendly network security scanner optimized for both Termux 
 ```
 pkg update && pkg upgrade
 pkg install nmap git
-git clone https://github.com/mrwhite4939/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan
 cd murjadscan
 chmod +x murjadscan.sh
 ./murjadscan.sh
@@ -63,7 +63,7 @@ chmod +x murjadscan.sh
 ```
 sudo apt update
 sudo apt install nmap git
-git clone https://github.com/mrwhite4939/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan
 cd murjadscan
 chmod +x murjadscan.sh
 sudo ./murjadscan.sh
@@ -184,7 +184,7 @@ pkg install nmap git -y
 termux-setup-storage
 
 # Clone the repository
-git clone https://github.com/yourusername/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan
 
 # Navigate to directory
 cd murjadscan
@@ -203,7 +203,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install nmap git -y
 
 # Clone the repository
-git clone https://github.com/yourusername/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan.git
 
 # Navigate to directory
 cd murjadscan
@@ -215,10 +215,10 @@ chmod +x murjadscan.sh
 sudo ./murjadscan.sh
 Option 3: Direct Download
 # Download script directly
-wget https://raw.githubusercontent.com/yourusername/murjadscan/main/murjadscan.sh
+wget https://raw.githubusercontent.com/mrwhite4939/murjadscan/main/murjadscan.sh
 
 # Or using curl
-curl -O https://raw.githubusercontent.com/yourusername/murjadscan/main/murjadscan.sh
+curl -O https://raw.githubusercontent.com/mrwhite4939/murjadscan/main/murjadscan.sh
 
 # Make executable
 chmod +x murjadscan.sh
