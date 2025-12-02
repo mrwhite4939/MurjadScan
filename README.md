@@ -1,3 +1,4 @@
+![MurjadScan](https://github.com/mrwhite4939/MurjadScan/blob/main/MurjadScan.jpg)
 # MurjadScan - Network Security Scanner
 
 A powerful and user-friendly network security scanner optimized for both Termux (Android) and Kali Linux environments. MurjadScan provides an intuitive command-line interface for conducting various types of network scans using nmap.
