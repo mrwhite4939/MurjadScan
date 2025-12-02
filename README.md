@@ -203,7 +203,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install nmap git -y
 
 # Clone the repository
-git clone https://github.com/mrwhite4939/murjadscan.git
+git clone https://github.com/mrwhite4939/murjadscan
 
 # Navigate to directory
 cd murjadscan
